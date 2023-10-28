@@ -13,10 +13,10 @@ const Home = async () => {
       <Header />
       <h1>HALO, USER</h1>
       <h2>Berikut materi yang bisa anda pelajari </h2>
-      <div className="grid grid-cols-5 gap-4 m-4">
+      <div className="grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-4 m-4">
       {materi.map((data) => {
         return (    
-          <div key={data._id} className="">      
+          <div key={data._id} className="shadow-xl">      
           <Pelajaran
             title={data.judul_materi}
             images={data.content_materi.gambar}
