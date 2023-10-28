@@ -7,8 +7,8 @@ const Pelajaran = ({title, images, id}) => {
       <Image
         src={images}
         alt="..."
-        width={600}
-        height={600}
+        width={350}
+        height={350}
       />
       <h3 className="font-bold md:text-md text-sm p-4">{title}</h3>
     </Link>
