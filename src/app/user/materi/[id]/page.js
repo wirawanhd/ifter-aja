@@ -1,6 +1,6 @@
-const materi = async () => {
+const materi = async ({params}) => {
     return(
-        <h3>MEMEK</h3>
+        <h3>TEST</h3>
     )
 }
 export default materi
